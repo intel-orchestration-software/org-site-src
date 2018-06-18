@@ -1,0 +1,3 @@
+[submodule "output"]
+	path = output
+	url = git@github.com:intel-orchestration-software/intel-orchestration-software.github.io.git
