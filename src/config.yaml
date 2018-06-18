@@ -1,0 +1,26 @@
+---
+baseURL: "https://intel-orchestration-software.github.io/"
+defaultContentLanguage: "en"
+languageCode: "en-ie"
+title: "Intel Orchestration Software."
+
+bind: 0.0.0.0
+
+buildExpired: false
+buildDrafts: false
+buildFuture: true
+enableEmoji: true
+enableGitInfo: false
+enableRobotsTXT: true
+newContentEditor: “nano”
+paginate: 25
+publishDir: output
+
+pygmentsCodeFencesGuessSyntax: true
+staticDir: src/static
+contentDir: src/content
+
+
+theme: "future-imperfect"
+themesDir: "src/themes"
+
