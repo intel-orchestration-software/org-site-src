@@ -4,6 +4,12 @@ REPO_ROOT_DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && cd .. && pwd )
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
+cd output
+git checkout -f master
+git clean -d -f
+git pull --ff-only
+cd .. 
+
 # Build the project.
 ${REPO_ROOT_DIR}/tools/hugo --config ${REPO_ROOT_DIR}/config.yaml -s ${REPO_ROOT_DIR} -d ${REPO_ROOT_DIR}/output
 
