@@ -5,7 +5,9 @@ REPO_ROOT_DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && cd .. && pwd )
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
 # Build the project.
-${REPO_ROOT_DIR}/tools/hugo --config ${REPO_ROOT_DIR}/src/config.yaml -s ${REPO_ROOT_DIR}/src -d ${REPO_ROOT_DIR}/output
+${REPO_ROOT_DIR}/tools/hugo --config ${REPO_ROOT_DIR}/config.yaml -s ${REPO_ROOT_DIR} -d ${REPO_ROOT_DIR}/output
+
+commit_message=$(git show --oneline -s)
 
 # Go To Public folder
 cd output
@@ -13,7 +15,8 @@ cd output
 git add .
 
 # Commit changes.
-msg="rebuilding site `date`"
+msg="rebuilding site `date`\n${commit_message}"
+msg=$(echo -e $msg)
 if [ $# -eq 1 ]
   then msg="$1"
 fi

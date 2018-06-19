@@ -1,6 +1,7 @@
 [submodule "output"]
 	path = output
 	url = git@github.com:intel-orchestration-software/intel-orchestration-software.github.io.git
-[submodule "src/themes/future-imperfect"]
-	path = src/themes/future-imperfect
+        ignore = dirty
+[submodule "themes/future-imperfect"]
+	path = themes/future-imperfect
 	url = https://github.com/jpescador/hugo-future-imperfect.git

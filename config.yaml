@@ -1,0 +1,125 @@
+--- 
+baseURL: "https://intel-orchestration-software.github.io/"
+buildDrafts: false
+buildExpired: false
+buildFuture: true
+canonifyURLs: true
+defaultContentLanguage: en
+disqusShortname: ""
+enableEmoji: true
+enableGitInfo: ture
+enableRobotsTXT: true
+googleAnalytics: "UA-12412635-6"
+languageCode: en-ie
+menu: 
+  main: 
+    - 
+      identifier: "fa fa-home"
+      name: Home
+      url: /
+      weight: 1
+    - 
+      identifier: "fa fa-id-card-o"
+      name: About
+      url: /about/
+      weight: 2
+    - 
+      identifier: "fa fa-newspaper-o"
+      name: Blog
+      url: /blog/
+      weight: 3
+    - 
+      identifier: "fa fa-sitemap"
+      name: Categories
+      url: /categories/
+      weight: 5
+newContentEditor: “nano”
+paginate: 25
+params: 
+  categoriesByCount: true
+  customCSS: 
+    - default
+  customJS: 
+    - default
+  description: "A selection of software componets for orchestration of cloud systems"
+  disable_highlight: false
+  dynamicTitles: true
+  faviconVersion: ""
+  highlightjsCDN: //cdn.bootcss.com
+  highlightjsLang: 
+    - yaml
+    - json
+    - python
+    - cpp
+    - java
+    - bash
+    - diff
+    - ini
+    - markdown
+  highlightjsTheme: github
+  highlightjsVersion: "9.12.0"
+  includeReadingTime: true
+  intro: 
+    about: "This site hosts a collection of blogs and supprot matial for the Intel Orchestration Software github org"
+    header: "Intel Orchestration Software"
+    paragraph: "A selection of blogs relating to software componets for orchestration of cloud systems"
+    pic: 
+      alt: ""
+      circle: true
+      imperfect: false
+      src: /img/intel-logo.png
+      width: "250"
+  loadFavicon: false
+  navbarTitle: "Intel Orchestration Software"
+  postAmount: 
+    sidebar: 5
+  rssAppearAtBottom: true
+  rssAppearAtTop: true
+  showSidebarCategories: true
+  socialAppearAtBottom: true
+  socialAppearAtTop: true
+  socialShare: true
+  socialShareEmail: true
+  socialShareFacebook: true
+  socialShareGoogleplus: true
+  socialShareLinkedin: true
+  socialSharePinterest: true
+  socialShareReddit: true
+  socialShareStumbleupon: true
+  socialShareTwitter: true
+  viewMorePostLink: /blog/
+preserveTaxonomyNames: true
+publishDir: output
+pygmentsCodeFencesGuessSyntax: true
+social: 
+  behance: ""
+  bitbucket: ""
+  codepen: ""
+  deviantart: ""
+  dribbble: ""
+  email: ""
+  facebook: ""
+  facebook_admin: ""
+  flickr: ""
+  foursquare: ""
+  github: intel-orchestration-software
+  googleplus: ""
+  instagram: ""
+  jsfiddle: ""
+  linkedin: ""
+  medium: ""
+  pinterest: ""
+  reddit: ""
+  slideshare: ""
+  stackoverflow: ""
+  tumblr: ""
+  twitter: ""
+  twitter_domain: ""
+  vimeo: ""
+  vine: ""
+  wordpress: ""
+  xing: ""
+  youtube: intel-orchestration-software
+theme: future-imperfect
+title: "Intel Orchestration Software"
+
