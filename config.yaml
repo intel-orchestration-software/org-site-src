@@ -9,7 +9,7 @@ disqusShortname: ""
 enableEmoji: true
 enableGitInfo: ture
 enableRobotsTXT: true
-googleAnalytics: "UA-12412635-6"
+googleAnalytics: ""
 languageCode: en-ie
 menu: 
   main: 
