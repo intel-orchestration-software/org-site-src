@@ -2,7 +2,7 @@
 set -x
 REPO_ROOT_DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && cd .. && pwd )
 echo REPO_ROOT_DIR is ${REPO_ROOT_DIR}
-HUGO_VERSION=${HUGO_VERSION:-"0.42.1"}
+HUGO_VERSION=${HUGO_VERSION:-"0.46"}
 HUGO_OUTPUT_ARCHIVE="${REPO_ROOT_DIR}/tools/hugo.tar.gz"
 
 if [ ! -e ${REPO_ROOT_DIR}/output ]; then
