@@ -7,7 +7,7 @@ canonifyURLs: true
 defaultContentLanguage: en
 disqusShortname: ""
 enableEmoji: true
-enableGitInfo: ture
+enableGitInfo: true
 enableRobotsTXT: true
 googleAnalytics: ""
 languageCode: en-ie
@@ -33,7 +33,7 @@ menu:
       name: Categories
       url: /categories/
       weight: 5
-newContentEditor: “nano”
+newContentEditor: "nano"
 paginate: 25
 params: 
   categoriesByCount: true
@@ -41,7 +41,7 @@ params:
     - default
   customJS: 
     - default
-  description: "A selection of software componets for orchestration of cloud systems"
+  description: "A selection of software components for orchestration of cloud systems"
   disable_highlight: false
   dynamicTitles: true
   faviconVersion: ""
@@ -60,9 +60,9 @@ params:
   highlightjsVersion: "9.12.0"
   includeReadingTime: true
   intro: 
-    about: "This site hosts a collection of blogs and supprot matial for the Intel Orchestration Software github org"
+    about: "This site hosts a collection of blogs and support material for the Intel Orchestration Software GitHub org"
     header: "Intel Orchestration Software"
-    paragraph: "A selection of blogs relating to software componets for orchestration of cloud systems"
+    paragraph: "A selection of blogs relating to software components for orchestration of datacenter and cloud systems"
     pic: 
       alt: ""
       circle: true

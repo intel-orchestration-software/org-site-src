@@ -8,7 +8,7 @@ featuredalt = ""
 featuredpath = ""
 linktitle = "About"
 title = "About"
-type = "post"
+type = "about"
 tags = []
 +++
 
